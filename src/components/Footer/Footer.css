@@ -1,0 +1,53 @@
+.modal-footer{
+    border-bottom: 2px solid #75634D;
+    background:linear-gradient(white, #ece8e4);
+}
+#imgFooter{
+    width: 6rem;
+}
+
+#columnanombre{
+    text-align:center;
+    line-height: 1px;
+    padding-top: 5px;
+}
+#imgseguinos{
+    width: 2rem;
+    margin: 1px;
+}
+#contenedoriconos{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+#columnacontacto{
+    font-size: 14px;
+    text-align:center;
+    line-height: 1px;
+    padding-top: 10px;
+}
+
+#columnaenvios{
+    font-size: 14px;
+    text-align:center;
+    line-height: 0.5px;
+    padding-top: 10px;
+}
+
+#imgfhone{
+    width: 1.3rem    
+}
+#imgenvios{
+    width: 0.8rem    
+}
+.nombrefooter{
+    font-family: Cambria, Cochin, Georgia, Times, sans-serif;
+    font-weight: 800;
+    color: rgb(67, 56, 36);
+}
+.copyright{
+    text-align: center;
+    margin-top: 7px;
+    opacity: .6;
+}

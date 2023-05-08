@@ -1,0 +1,22 @@
+.contadorEstilo{
+    width: fit-content;
+    border: solid 1px #a99f93;
+    margin: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    border-radius: 0.5rem;
+       
+}
+
+.contadorButton{
+    width: auto;
+    border: solid 2px #a99f93;
+    border-radius: 0.1rem;
+    margin: 4px;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center
+;
+}
