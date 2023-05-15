@@ -33,6 +33,10 @@
     text-align:center;
     line-height: 0.5px;
     padding-top: 10px;
+    margin-bottom: 3px;
+}
+.marginfooter{
+    margin-bottom: 7px;
 }
 
 #imgfhone{
@@ -48,6 +52,7 @@
 }
 .copyright{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 3px;
     opacity: .6;
+    font-size: 12px;
 }

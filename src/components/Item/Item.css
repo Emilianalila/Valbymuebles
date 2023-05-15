@@ -1,0 +1,59 @@
+
+.cardProducto{
+    width: 15rem;
+    line-height: 0.2rem;
+     box-sizing: border-box;
+     border: 2.9px solid #403c37;
+     border-radius: 0.4rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 20px;
+    
+}
+ 
+ .imgProducto{
+      width: 11rem;
+      object-fit: contain;
+ }
+ .textoProducto{
+    background-color: #eee6dd;
+     display: flex;
+     flex-direction:row;
+     justify-content:center;
+     text-align:center;
+     padding:5px;
+    font-family: Cambria, Cochin, Georgia, Times, sans-serif;
+ }
+
+.texto{
+    text-align: left;
+    margin: 4px;
+    padding-left: 50px;
+    padding-bottom: 9px;
+    width: 1rem;
+   
+    
+}
+#meGusta{
+    width: 1.5rem;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+
+ .btnProducto{
+    width: 5rem;
+    font-size: 12px;
+    height: 1.6rem;
+    color: black;
+     background-color:#eee6dd;
+     border-radius: 0.3rem;
+     margin:10px;
+     margin-top: 20px;
+     padding: 1px;
+     cursor: pointer;
+     border: 1.2px solid #34312e;
+     
+ }

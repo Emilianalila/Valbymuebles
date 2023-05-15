@@ -3,9 +3,7 @@
      align-items:end;
      justify-content:space-between;
      color: black;
-     margin: 15px;
-     
-     
+     margin: 15px;    
  }
  
  .navBar{
@@ -21,4 +19,16 @@
  .imgVista{
     width: 1.4rem;
  }
+
+ 
+ .claro{
+    background-color: #f1ede8;
+    color: black;
+}
+
+.oscuro{
+    
+    background:linear-gradient(white, #71563a);;
+    color: black;
+}
  
