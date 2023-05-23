@@ -7,14 +7,20 @@
  }
  
  .navBar{
-     color: rgb(31, 73, 51);
+     color: black;
      display: inline-block;
-     margin: 1rem;
+     margin: 0.5rem;
      cursor: pointer;
- }
+     text-decoration: none;
+}
+.navBar:hover{
+color: #40373b;
+
+}
  
  .imgLogo{
      width: 5rem;
+     margin-right: 1.8rem;
  }
  .imgVista{
     width: 1.4rem;

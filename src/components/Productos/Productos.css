@@ -1,0 +1,25 @@
+.containerCategoriasP{
+    text-align: center;
+    display:inline-block;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 1rem;
+}
+
+.categoriasP{
+    font-family: Cambria, Cochin, Georgia, Times, sans-serif;
+    font-weight: 900;
+    color: rgb(67, 56, 36);
+    padding: 3px;
+    text-align:left;
+    display:flex;
+    align-items:end;
+    justify-content:left;
+    margin: 20px;
+    border-radius: 0.4rem;
+    
+}
+.imgButtonP{
+    width: 3rem;
+    margin-left: 3.5px;
+}

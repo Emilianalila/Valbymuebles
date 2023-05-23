@@ -3,7 +3,7 @@
     width: 15rem;
     line-height: 0.2rem;
      box-sizing: border-box;
-     border: 2.9px solid #403c37;
+     border: 1.5px solid #403c37;
      border-radius: 0.4rem;
      display: flex;
      flex-direction: column;
@@ -12,7 +12,7 @@
     
 }
  
- .imgProducto{
+.imgProducto{
       width: 11rem;
       object-fit: contain;
  }
@@ -32,15 +32,12 @@
     padding-left: 50px;
     padding-bottom: 9px;
     width: 1rem;
-   
-    
 }
 #meGusta{
     width: 1.5rem;
     cursor: pointer;
     margin-left: 25px;
     margin-top: 5px;
-
 }
 
  .btnProducto{

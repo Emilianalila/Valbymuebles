@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap"
 import "./Item.css"
+import { Link } from "react-router-dom"
 
 const Item = ({id, nombre, precio, img, meGusta}) => {
   return (
@@ -14,7 +15,7 @@ const Item = ({id, nombre, precio, img, meGusta}) => {
           </Row>
           <row>
           <img id='meGusta' src={meGusta}  alt= "Me gusta"/>
-          <button className='btnProducto'>Ver Detalles</button>
+          <Link to={`/Item/${id}`}><button className='btnProducto'>Ver Detalles</button></Link>
           </row>
         </div>
         </Col>
