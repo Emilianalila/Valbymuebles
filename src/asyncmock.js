@@ -1,9 +1,8 @@
-
 const productos = [
-    {nombre: "Cambiador", precio: `$`+ 500, id:"1", img:"../img/organizador.png", meGusta: "../img/meGusta.png", idCat:"2"},
-    {nombre: "Mesa", precio: `$`+ 800, id:"2", img:"../img/muebleverdulero.png", meGusta: "../img/meGusta.png", idCat:"2"},
-    {nombre: "Juguete", precio:`$`+ 600, id:"3", img:"../img/muebleverdulero2.png", meGusta: "../img/meGusta.png", idCat:"3"},
-    {nombre: "Silla", precio: `$`+ 400, id:"4", img:"../img/zapatero.png", meGusta: "../img/meGusta.png", idCat:"4"},
+    {nombre: "Cambiador", precio: `$`+ 500, stock:10, id:"1", img:"../img/organizador.png", meGusta: "../img/meGusta.png", idCat:"2"}, //el id tiene q ir como string " 7 "
+    {nombre: "Mesa", precio: `$`+ 800, stock:10, id:"2", img:"../img/muebleverdulero.png", meGusta: "../img/meGusta.png", idCat:"2"},
+    {nombre: "Juguete", precio:`$`+ 600, stock:10, id:"3", img:"../img/muebleverdulero2.png", meGusta: "../img/meGusta.png", idCat:"3"},
+    {nombre: "Silla", precio: `$`+ 400, stock:5, id:"4", img:"../img/zapatero.png", meGusta: "../img/meGusta.png", idCat:"4"},
 ];
 
 //async mock,  se refiere a la simulacion o creación de una función asincrónica para realizar pruebas unitarias en JavaScript. En el contexto de pruebas, a menudo se necesita simular el comportamiento de una función asincrónica, como una llamada a una API o una operación de lectura en una base de datos, sin ejecutar realmente la operación real durante las pruebas.

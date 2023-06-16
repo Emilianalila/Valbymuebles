@@ -1,22 +1,21 @@
 import { useState, useEffect } from "react";
 import "./ItemCount.css";
 
-const ItemCount = ({ stock, inicial }) => {
-  //hooks
-  const [contador, setContador] = useState(inicial); // props (entre parentesis)
-  const [color, setColor] = useState("black"); //string "entreComilas"
-  // efecto secundario, cambiar el color a mi boton (agregar al carrito)
+
+const ItemCount = ({ stock, inicial, funcionAgregar}) => {
+  
+  const [contador, setContador] = useState(inicial); 
+  const [color, setColor] = useState("black"); 
+  
   useEffect(() => {
-    console.log("se ejecuto el useeffect!!");
+    
     if (contador > 5) {
       setColor("brown");
     } else {
       setColor("black");
     }
-    /* if (contador === 5){
-          document.getElementById("botton").style.color = "red";
-        } no podemos utilizar document. para manipular el Don, de eso se encargan los estados, REACT*/
-  }, [contador]);
+    
+  },[contador]);
 
   const agregarAlcarrito = () => {
     console.log(`Agregado ${contador} items`);
@@ -35,24 +34,12 @@ const ItemCount = ({ stock, inicial }) => {
 
   return (
     <div className="contadorEstilo">
-      <button className="contadorButton" onClick={decrementar}>
-        {" "}
-        -{" "}
-      </button>
+      <button className="contadorButton" onClick={decrementar}>{" "}-{" "}</button>
       <p className="contador">{contador}</p>
-      <button className="contadorButton" onClick={incrementar}>
-        {" "}
-        +{" "}
-      </button>
+      <button className="contadorButton" onClick={incrementar}>{" "}+{" "}</button>
       <br></br>
-      <button
-        className="contadorButton"
-        onClick={agregarAlcarrito}
-        id="botton"
-        style={{ color: color }}
-      >
-        Agregar al carrito
-      </button>
+      <button className="contadorButton" onClick={() => funcionAgregar(contador)} id="botton" style={{ color: color }}>
+        Agregar al carrito </button>
     </div>
   );
 };

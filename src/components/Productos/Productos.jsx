@@ -13,7 +13,7 @@ import { Link } from "react-router-dom"
 const Productos = () => {
   const [productos, setproductos] = useState([]);
   
-  useEffect( () => { //efecto secundario "la carga de productos"
+  useEffect( () => { 
     getProductos()
        .then(respuesta => setproductos(respuesta))
        .catch(error => console.log(error))
