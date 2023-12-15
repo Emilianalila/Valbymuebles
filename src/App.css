@@ -8,14 +8,20 @@ body {
 font-size: 18px;
 background-color: #f5f6f7;
 
+/*display: flex;
+flex-direction: column;
+min-height: 100vh;*/
+
+
 margin: 0;
 position: relative;
 min-height: 100vh;
 }
 
 footer {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
   height: 100px;
-  width: 100%;
+  width: 100%;*/
+  margin-top: auto;
 }

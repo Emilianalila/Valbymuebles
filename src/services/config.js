@@ -5,7 +5,7 @@ import {getFirestore} from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBLk0i0unEoSAAACAHFx8r3OvFOYZerqzY",
+  apiKey:"AIzaSyBLk0i0unEoSAAACAHFx8r3OvFOYZerqzY",
   authDomain: "tienda-valbymuebles.firebaseapp.com",
   projectId: "tienda-valbymuebles",
   storageBucket: "tienda-valbymuebles.appspot.com",
@@ -17,3 +17,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore (app);
+
+
+
+
+
+
+//process.env.REACT_APP_FIREBASE_API_KEY
