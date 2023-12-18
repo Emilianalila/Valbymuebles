@@ -7,7 +7,7 @@ import Cart from "./components/Cart/Cart";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Productos from "./components/Productos/Productos";
 import Contactanos from "./components/Contactanos/Contactanos";
-import { CarritoProvider } from "./Context/CartContext";
+import { CarritoProvider } from "./context/CartContext";
 import {Checkout} from "./components/Checkout/Checkout"
 
 
